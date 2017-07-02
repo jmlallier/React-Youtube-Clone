@@ -1,0 +1,60 @@
+.search-bar {
+	margin     : 20px;
+	text-align : center;
+}
+
+.search-bar input {
+	width                 : 75%;
+	height                : 40px;
+	-webkit-border-radius : 4px;
+	-moz-border-radius    : 4px;
+	border-radius         : 4px;
+	box-shadow            : 1px 1px 10px 1px rgba(0, 0, 0, 0.3), 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
+	outline               : none;
+	border                : none;
+	margin-bottom         : 30px;
+	margin-top            : 20px;
+}
+
+.video-item img {
+	max-width : 64px;
+}
+
+.video-detail .embed-responsive {
+	box-shadow : 1px 1px 20px 2px rgba(0, 0, 0, 0.3);
+}
+
+.video-detail .details {
+	margin-top    : 16px;
+	padding       : 10px;
+	border        : 1px solid #DDDDDD;
+	border-radius : 4px;
+	box-shadow    : 1px 1px 20px 2px rgba(0, 0, 0, 0.3);
+rgba(0, 0, 0, 0.2);
+}
+
+.video-detail .details .title {
+	font-size     : 18px;
+	font-weight   : bold;
+	margin-bottom : 6px;
+}
+
+.video-detail .details .description {
+	font-size   : 14px;
+	line-height : 1.3;
+}
+
+.video-list-group {
+	box-shadow : 1px 1px 20px 2px rgba(0, 0, 0, 0.3);
+	padding    : 0 !important;
+}
+
+.list-group-item {
+	cursor        : pointer;
+	width         : 100%;
+	border-radius : 0;
+}
+
+.list-group-item:hover {
+	background : #EEEEEE;
+}
